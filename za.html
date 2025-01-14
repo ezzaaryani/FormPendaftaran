@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="za.css">
+    <title>Form Biodata Siswa</title>
+
+    <body>
+        <header>
+         <h2>Form Biodata Siswa</h2>
+        </header>
+            <form>
+                <div>
+                    <label for="nama">Nama Lengkap:</label>
+                </div>
+                
+                <div>
+                    <input type="text" id="nama" name="nama" required>
+                </div>     
+            </form>
+
+            <form>
+                <!--Alamat-->
+                <div>
+                    <label for="alamat">Alamat:</label>
+                    </div>
+                    <div>
+                    <input type="text" id="alamat" name="alamat" required>
+                </div>
+            </form>
+
+            <form>
+                <div class="form-group">
+                    <label for="tempat">Tempat Tanggal Lahir:</label>
+                    </div>
+
+                <div>
+                    <input type="text" id="Tempat Tanggal Lahir" name="Tempat Tanggal Lahir" required>
+                </div>
+            </form>
+
+           <form>
+            <div class="form-group">
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                </div>
+                <div>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+            </div>
+           </form>
+
+            <form>
+                <div class="form-group">
+                    <label for="jenis_kelamin">Jenis Kelamin:</label>
+                </div>
+                <div>
+                    <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" required>
+                    <label class="radio-label" for="laki-laki">Laki-laki</label>
+                </div>
+                <div>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label class="radio-label" for="perempuan">Perempuan</label>
+                </div>
+            </form>
+
+            <form>
+                <div>
+                    <label for="Hobi">Hobi:</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Membaca" name="Hobi" value="Membaca" required>
+                    <label class="value-label" for="Membaca">Membaca</label> 
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Traveling" name="Hobi" value="Traveling" required>
+                    <label class="value-label" for="Traveling">Traveling</label> 
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Olahraga" name="Hobi" value="Olahraga" required>
+                    <label class="value-label" for="Olahraga">Olahraga</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Menyanyi" name="Hobi" value="Menyanyi" required>
+                    <label class="value-label" for="Menyanyi">Menyanyi</label>
+                </div>
+
+                <form>
+                    <div>
+                        <label for="kelas">Pilih Kelas:</label>
+                        <br/>
+                        <select id="kelas" name="kelas">
+                        <option value="X PPLG 1">X PPLG 1</option>
+                        <option value="X PPLG 2">X PPLG 2</option>
+                        </select> 
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="checkbox" id="Remember-me" name="Remember-me" required>
+                           Remember-me 
+                            <br><br>
+                        </label>
+
+                    </div>
+                        
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Login</button>
+                </div>
+    
+            </form>
